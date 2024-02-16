@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import paymentLogo from '../../assets/images/payment.png';
-// import productStore from "../../store/ProductStore.js";
 
 const Footer = () => {
     return (
@@ -11,16 +10,16 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <h1 className="bodyMedium">legals</h1>
-                            <p className="my-2"><Link to="/" className="nav-link">About</Link> </p>
-                            <p className="my-2"><Link to="/" className="nav-link">Refund Policy</Link> </p>
-                            <p className="my-2"><Link to="/" className="nav-link">Terms</Link> </p>
+                            <p className="my-2"><Link to="/About" className="nav-link">About</Link> </p>
+                            <p className="my-2"><Link to="/refund-policy" className="nav-link">Refund Policy</Link> </p>
+                            <p className="my-2"><Link to="/terms" className="nav-link">Terms</Link> </p>
                         </div>
 
                         <div className="col-md-4">
                             <h1 className="bodyMedium">Information</h1>
-                            <p className="my-2"><Link to="/" className="nav-link">How to Buy</Link> </p>
-                            <p className="my-2"><Link to="/" className="nav-link">Contact</Link> </p>
-                            <p className="my-2"><Link to="/" className="nav-link">Complain</Link> </p>
+                            <p className="my-2"><Link to="/how-to-buy" className="nav-link">How to Buy</Link> </p>
+                            <p className="my-2"><Link to="/contact" className="nav-link">Contact</Link> </p>
+                            <p className="my-2"><Link to="/complain" className="nav-link">Complain</Link> </p>
                         </div>
 
                         <div className="col-md-4">

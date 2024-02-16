@@ -20,6 +20,9 @@ const AppNavBar = () => {
                 await cartListRequest();
                 await wishListRequest();
             }
+            else{
+
+            }
 
         })()
 
@@ -48,16 +51,20 @@ const AppNavBar = () => {
                             </span>
                        </div>
                        <div className="col-md-6">
+
                             <span className="float-end">
-                                <span className="bodySmal mx-2">
+                                 <Link to="https://wa.me/601611650721" target="_blank" rel="noopener noreferrer">
+                                       <span className="bodySmal mx-2">
                                     <i className="bi bi-whatsapp"></i>
-                                </span>
+                                    </span>
+                                 </Link>
                                 <span className="bodySmal mx-2">
                                     <i className="bi bi-youtube"></i>
                                 </span>
                                 <span className="bodySmal">
                                     <i className="bi bi-facebook"></i>
                                 </span>
+
                             </span>
                        </div>
                    </div>

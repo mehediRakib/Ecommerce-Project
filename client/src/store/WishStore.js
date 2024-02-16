@@ -25,7 +25,7 @@ const wishStore=create((set)=>({
     saveWishList:async (postBody)=>{
         try{
             set({isWishSubmit:true})
-            let res=await axios.post('/api/v1/SaveWishList',postBody)
+            let res=await axios.post('/api/v1/SaveWishList',postBody);
             return res.data['status']==='success';
         }catch (e) {
                 unauthorized(e.response.value);

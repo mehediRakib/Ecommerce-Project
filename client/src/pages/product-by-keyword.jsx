@@ -10,9 +10,9 @@ const ProductByKeyword = () => {
 
     useEffect(() => {
         (async () => {
-            await ListByKeywordRequest(keyword);
+            await ListByKeywordRequest('About');
         })();
-    }, [keyword]);
+    }, [Date.now()]);
 
     return (
         <Layout>

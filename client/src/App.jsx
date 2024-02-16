@@ -8,6 +8,7 @@ import ProductDetailsPage from "./pages/Product-details-page.jsx";
 import LoginPage from "./pages/Login-page.jsx";
 import OTPPage from "./pages/OTP-page.jsx";
 import ProfilePage from "./pages/Profile-page.jsx";
+import TermsPage from "./pages/terms-page.jsx";
 
 
 const App = () => {
@@ -22,6 +23,12 @@ const App = () => {
               <Route path="/login" element={<LoginPage/>}/>
               <Route path="/OTP" element={<OTPPage/>}/>
               <Route path="/profile" element={<ProfilePage/>}/>
+              <Route path="/About" element={<TermsPage/>}/>
+              <Route path="/refund-policy" element={<TermsPage/>}/>
+              <Route path="/terms" element={<TermsPage/>}/>
+              <Route path="/how-to-buy" element={<TermsPage/>}/>
+              <Route path="/contact" element={<TermsPage/>}/>
+              <Route path="/complain" element={<TermsPage/>}/>
 
           </Routes>
       </BrowserRouter>

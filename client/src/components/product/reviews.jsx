@@ -5,7 +5,6 @@ import StarRatings from "react-star-ratings/build/star-ratings.js";
 const Reviews = () => {
 
     const {ReviewList}=productStore();
-    console.log("ReviewList: ",ReviewList);
 
     return (
         <div>

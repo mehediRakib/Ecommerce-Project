@@ -7,7 +7,7 @@ import parse from 'html-react-parser';
 import Reviews from "./reviews.jsx";
 import cartStore from '../../store/CartStore.js';
 import toast, {Toaster} from "react-hot-toast";
-import WishSubmitButton from "../../wish/wishSubmitButton.jsx";
+import WishSubmitButton from "../wish/wishSubmitButton.jsx";
 import WishStore from "../../store/WishStore.js";
 
 

@@ -10,7 +10,7 @@ let result= await UserOTPService(req);
 exports.VeryfyLogin=async(req,res)=>{
   let result= await VerifyOTPService(req);
   if(result['status']==='success'){
-    let cookieOption={expires:new Date(Date.now()+24*6060*1000),httponly:false};
+    let cookieOption={expires:new Date(Date.now()+24*60*60*1000),httponly:false};
     res.cookie('token',result['token'],cookieOption);
     res.status(200).json(result);
   }

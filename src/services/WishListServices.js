@@ -47,7 +47,7 @@ const SaveWishListService=async (req)=>{
         let reqbody=req.body;
         reqbody.userID=user_id;
         await WishListModel.updateOne(reqbody,{$set:reqbody},{upsert:true});
-        return {status:"successs",message:"Wish list save successfully"}
+        return {status:"success",message:"Wish list save successfully"}
 
     }catch (e) {
         return {status:"fail",message:"Something Went Wrong",data:e.toString()};

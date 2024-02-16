@@ -1,0 +1,16 @@
+[
+  {
+    "type": "About",
+    "description": "<p>Welcome to My Application! This is a brief description of what we do and what makes our application unique.</p><p>Feel free to explore and use the various features we offer to enhance your experience.</p><p>If you have any questions or feedback, don't hesitate to contact us.</p>"
+
+  },
+  {
+    "type": "Terms",
+    "description": "<p>Welcome to My Application! This is a brief description of what we do and what makes our application unique.</p><p>Feel free to explore and use the various features we offer to enhance your experience.</p><p>If you have any questions or feedback, don't hesitate to contact us.</p>"
+
+  },
+  {
+    "type": "contact",
+    "description": "<p>Welcome to My Application!</p><p>Contact:01611650721</p><p>Follow us on Facebook: <a href='https://www.facebook.com/'>Facebook Page</a></p>"
+  }
+]
